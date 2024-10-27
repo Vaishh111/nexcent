@@ -1,0 +1,122 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+height: 84px;
+gap: 0px;
+opacity: 0px;
+background: #F5F7FA;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding:0px 90px;
+
+
+}
+
+.leftside {
+    display: flex;
+    justify-content: flex-start;
+    color: #263238;
+    gap:10px;
+
+
+}
+.mid-side ul{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+    list-style: none;
+    cursor: pointer;
+}
+.rightside{
+    display: flex;
+    justify-content: space-around;
+    gap:15px;
+}
+d{
+    display: flex;
+    justify-content: center;
+ 
+    width: Hug (77px)px;
+height: Hug (40px)px;
+padding: 10px 20px 10px 20px;
+color: rgba(76, 175, 79, 1);
+
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+cursor: pointer;
+
+}
+button{
+
+padding: 10px 20px 10px 20px;
+background: rgba(76, 175, 79, 1);
+border-radius: 10px;
+color:white;
+border: none;
+cursor: pointer;
+
+
+}
+.slider{
+    background: #F5F7FA;
+    width:100%;
+    height:500px;
+    
+    padding:10px 20px;
+ 
+display: flex;
+justify-content: space-between;
+
+
+}
+.main-img{
+    width: 509px;
+    height: 446px;
+gap: 0px;
+opacity: 0px;
+padding:40px 87px 0px 0px;
+}
+.text-side h2{
+    font-weight:bold;
+    padding: 100px 10px 0px 100px;
+    font-size: 5rem;
+
+}
+.text-side h3{
+    font-weight: 800;
+    padding:0 20px 0 100px;
+    font-size: 3rem;
+    color:rgba(76, 175, 79, 1);
+}
+.text-side h4{
+    padding:10px 30px 42px 100px;
+    color:grey;
+    font-size:large;
+    font-weight: 500;
+    
+}
+.btn-main{
+    
+padding: 10px 30px 10px 27px;
+background: rgba(76, 175, 79, 1);
+border-radius: 10px;
+color:white;
+border: none;
+cursor: pointer;
+margin:0 100px;
+
+}
+.dots{
+position:absolute;
+bottom:130px;
+left:700px;
+   
+    
+    
+}
