@@ -182,17 +182,68 @@ left:700px;
     font-weight: 500;
 }
 .onepart h3{
+    padding-top: 5px;
     color:grey;
     font-weight: 400;
     font-size:medium;
 }
 .secondpart h3{
+    padding-top: 5px;
     color:grey;
     font-weight: 400;
     font-size:medium;
 }
 .thirdpart h3{
+    padding-top: 5px;
     color:grey;
     font-weight: 400;
     font-size:medium;
+}
+.body-1{
+    padding:20px 100px;
+    display: flex;
+}
+.right-text{
+    padding:75px 0;
+
+}
+.right-text h2{
+    font-size: 2rem;
+    padding:10px;
+}
+.right-text h3{
+    font-size: medium;
+    color:grey;
+    font-weight: 300;
+    padding:10px;
+}
+.body-btn{padding: 10px 20px 10px 20px;
+    background: rgba(76, 175, 79, 1);
+    border-radius: 10px;
+    color:white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.body-2{
+    width: 100%;
+    height:auto;
+    padding:20px 100px;
+    display: flex;
+    background: #F5F7FA;
+}
+.leftt-text h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.leftt-text h3{
+    font-size: 50px;
+    font-weight: 400;
+    color: rgba(76, 175, 79, 1);
+   
+
 }
