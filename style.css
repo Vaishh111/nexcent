@@ -358,22 +358,68 @@ left:700px;
 
 .card-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    height:auto;
+    height: auto;
+    gap: 20px;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 .card {
-    background: #fff;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 250px;
-    text-align: center;
-    overflow: hidden;
-    transition: transform 0.3s ease;
+   
+    width: 300px;
+    height: 286px;
+    background-color: #F5F7FA;
+    border-radius:10px ;
     position: relative;
+    /* overflow-x: hidden; */
 }
+
+.child-div{
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    background-color:white;
+    bottom: -21px;
+    left: 35px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.child-div h2{
+    padding:10px;
+    font-size:medium
+}
+.child-div button{
+    margin:0 auto;
+}
+
+.img-1{
+    width: 100%;
+    height: 100%;
+    border-radius:10px ;
+
+    background-image: url('./lady.png');
+}
+.img-2{
+    width:100%;
+    height:100%;
+    border-radius:10px ;
+    background-image: url('./ladyimg2.png');
+}
+.img-3{
+    width:100%;
+    height:100%;
+    border-radius:10px ;
+    background-image: url('./ladyimg3.png');
+}
+
+
+
+
 
 /* .card:hover {
     transform: translateY(-10px);
