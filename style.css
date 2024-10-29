@@ -455,3 +455,26 @@ left:700px;
     left: 15px;
     border-radius: 15px;
 }
+.last-div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height:60%;
+    background-color:  #F5F7FA;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+}
+.last-div h2{
+    font-size: 3rem;
+    padding-top: 20px;
+    text-align: center;
+}
+.last-div button{
+  margin-bottom: 50px;
+  margin-top: 30px;
+
+}
+
