@@ -247,3 +247,165 @@ left:700px;
    
 
 }
+.outer-div {
+    width: 400px;
+    height: 200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+
+}
+
+.twocards {
+    padding-left: 200px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:5px;
+
+
+}
+
+.twocards img {
+    width: 40px;
+    /* margin-right: 50px; */
+}
+
+.body-3 {
+    padding: 20px 100px;
+    display: flex;
+}
+
+.right-textt {
+    padding: 75px;
+
+}
+
+.right-textt h2 {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.right-textt h3 {
+    font-size: medium;
+    color: grey;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.body-btnn {
+    padding: 10px 20px 10px 20px;
+    background: rgba(76, 175, 79, 1);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.body-4 {
+    padding: 20px 100px;
+    display: flex;
+    background-color: #F5F7FA;
+}
+
+.rightt-textt {
+
+    font-size: 2rem;
+    padding: 20px;
+    font-size: medium;
+    color: grey;
+    font-weight: 300;
+
+
+}
+
+.body-4 h4 {
+    color: rgba(76, 175, 79, 1);
+    padding-top: 15px;
+    font-size: larger;
+}
+
+.body-4 h5 {
+    color: grey;
+    padding-top: 15px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.inner-iconss {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 10px;
+    gap: 60px;
+}
+
+.inner-iconss p {
+    color: rgba(76, 175, 79, 1);
+    font-size: larger;
+    font-weight: 800;
+}
+
+/*  */
+
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height:auto;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+/* .card:hover {
+    transform: translateY(-10px);
+  } */
+
+.card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 1rem;
+    color: #333;
+    margin: 15px 0 5px;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 15px 15px;
+}
+
+.text-cards {
+
+    position: absolute;
+    top: 150px;
+    background-color: whitesmoke;
+    width: 120%;
+    height:80%;
+    left: 15px;
+    border-radius: 15px;
+}
