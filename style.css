@@ -363,7 +363,8 @@ left:700px;
     height: auto;
     gap: 20px;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .card {
@@ -477,4 +478,85 @@ left:700px;
   margin-top: 30px;
 
 }
+/* .footer{
+    width:100%;
+    height:60%;
+    background: rgba(38, 50, 56, 1);
+    color:white;
+    padding:30px 180px;
+    display:flex;
 
+
+
+}
+.logofoot{
+    display: flex;
+    gap:10px;
+    font-size: 1rem;
+}
+.writtenlogo{
+    padding-top: 30px;
+    display: flex;
+    
+}
+.writtenlogo p{
+    margin-top: 30px;
+    font-size:xx-small;
+    font-weight:200;
+    display: flex;
+}
+.fonticons{
+    margin-top: 30px;
+    color:white;
+    display: flex;
+    gap:20px;
+    padding: 20px;
+
+} */
+.footer {
+    background: rgba(38, 50, 56, 1);
+    color: #fff; 
+    padding: 40px 180px;
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.footer h4 {
+    margin-bottom: 10px; /* Space below headings */
+}
+
+.footer a {
+    color: #fff; /* White links */
+    text-decoration: none;
+    
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+    
+}
+
+.stay-up-to-date input {
+    padding: 10px; /* Padding for input */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.stay-up-to-date button {
+    padding: 10px; /* Padding for button */
+}
+.footer-links ul{
+    margin-top: 30px;
+    list-style: none;
+}
+.footer-support ul{
+    margin-top: 30px;
+    list-style: none;
+}
+.stay-up-to-date h4{
+    margin-bottom: 30px;
+
+}
